@@ -24,9 +24,9 @@ Livrables techniques :
 - Script vérifiant la qualité des données : data_qual/data_quality.py
 
 Procédure: 
-1 - démarrer serveur django dans data_lake : python3 manage.py runserver 
-2 - docker compose up dans data_ingestion/scripts
-3 - lancer data_lake/scripts/kafka_ingestion.py pour la lecture en temps réel des données.
-4 - run data_lake/scripts/main_ingestion.py pour essayer l'ingestion des données.
-5 - run etl_pipeline (pendant que kafka_ingestion.py tourne) pour essayer la pipeline ETL.
-6 - run api_test.py pour voir si l'api marche. 
+1. démarrer serveur django dans data_lake : python3 manage.py runserver 
+2. docker compose up dans data_ingestion/scripts
+3. lancer data_lake/scripts/kafka_ingestion.py pour la lecture en temps réel des données.
+4. run data_lake/scripts/main_ingestion.py pour essayer l'ingestion des données.
+5. run etl_pipeline (pendant que kafka_ingestion.py tourne) pour essayer la pipeline ETL.
+6. run api_test.py pour voir si l'api marche. 
