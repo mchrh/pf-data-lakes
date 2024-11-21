@@ -1,0 +1,35 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/summary/
+Forbidden: /api/web-logs/
+Forbidden: /api/web-logs/metrics/
+Forbidden: /api/campaigns/
+Watching for file changes with StatReloader
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/summary/
+Forbidden: /api/web-logs/
+Forbidden: /api/web-logs/metrics/
+Forbidden: /api/campaigns/
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/summary/
+Forbidden: /api/web-logs/
+Forbidden: /api/web-logs/metrics/
+Forbidden: /api/campaigns/
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/summary/
+Forbidden: /api/web-logs/
+Forbidden: /api/web-logs/metrics/
+Forbidden: /api/campaigns/
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/summary/
+Forbidden: /api/web-logs/
+Forbidden: /api/web-logs/metrics/
+Forbidden: /api/campaigns/
+Forbidden: /api/transactions/
+Forbidden: /api/transactions/
+Not Found: /api//transactions//
+Not Found: /api//transactions/summary//
+Not Found: /api//web-logs//
+Not Found: /api//web-logs/metrics//
+Not Found: /api//campaigns//

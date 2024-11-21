@@ -1,0 +1,22 @@
+{
+    "posts": [
+      {
+        "post_id": "p001",
+        "user_id": "u123",
+        "content": "Just bought a great product! #happy #shopping",
+        "timestamp": "2024-01-01T10:15:00Z",
+        "likes": 45,
+        "tags": ["happy", "shopping"],
+        "platform": "twitter"
+      },
+      {
+        "post_id": "p002",
+        "user_id": "u124",
+        "content": "Amazing customer service at the store",
+        "timestamp": "2024-01-02T14:30:00Z",
+        "likes": 23,
+        "tags": ["customerservice", "retail"],
+        "platform": "facebook"
+      }
+    ]
+  }

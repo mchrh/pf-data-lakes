@@ -1,0 +1,3 @@
+v1
+{"path":"file:///Users/work/Documents/pf-data-lakes/data_lake/raw/ad_clicks/part-00000-54814210-d9d7-437f-af0f-a9976d572792-c000.snappy.parquet","timestamp":1732218358213,"batchId":0}
+{"path":"file:///Users/work/Documents/pf-data-lakes/data_lake/raw/ad_clicks/part-00000-cc23f761-09e6-43ad-94c5-9fe99dc67c98-c000.snappy.parquet","timestamp":1732218899053,"batchId":0}

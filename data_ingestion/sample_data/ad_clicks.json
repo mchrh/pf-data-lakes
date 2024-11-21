@@ -1,0 +1,9 @@
+{
+    "click_id": "c001",
+    "ad_id": "a123",
+    "user_id": "u789",
+    "timestamp": "2024-01-01T10:00:00Z",
+    "page_url": "http://example.com/products/123",
+    "campaign_id": "camp001",
+    "cost_per_click": 0.50
+  }

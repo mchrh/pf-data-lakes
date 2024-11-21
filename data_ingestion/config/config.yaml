@@ -1,0 +1,39 @@
+ingestion:
+  sql:
+    connection:
+      host: localhost
+      port: 5432
+      database: ecommerce
+      user: user
+      password: password
+    batch_size: 1000
+    schedule: "0 * * * *"  # tt les heures
+
+  logs:
+    source_path: "/source/logs/*.log"
+    batch_size: 1000
+    schedule: "*/30 * * * *"  # tt les 30 minutes
+
+  social_media:
+    source_path: "/source/social_media/"
+    batch_size: 500
+    schedule: "*/15 * * * *"  # tt les 15 minutes
+
+  kafka:
+    bootstrap_servers:
+      - "localhost:9092"
+    topic: "ad_clicks"
+    group_id: "advertising_group"
+    buffer_size: 1000
+
+hdfs:
+  url: "http://localhost:9870"
+  user: "hdfs"
+
+data_lake:
+  base_path: "/data_lake"
+  raw_zone:
+    transactions: "/raw/transactions"
+    web_logs: "/raw/web_logs"
+    social_media: "/raw/social_media"
+    advertising: "/raw/advertising"
